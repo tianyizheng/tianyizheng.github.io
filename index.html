@@ -1,10 +1,10 @@
 ---
 layout: null
 title: Tianyi Zheng - Home Page
-description: Welcome. 
+description: Tianyi Zheng's Personal Homepage
 sitemap:
     priority: 1.0
-    lastmod: 2017-11-02
+    lastmod: 2018-03-31
     changefreq: weekly
 ---
 <!DOCTYPE HTML>
@@ -27,9 +27,12 @@ sitemap:
 
 				<!-- Intro -->
 					<div id="intro">
+
             <h1>{{site.title}}</h1>
 						<h2>{{site.bio}}</h2>
-						<p>I am a graduate student studying mechanical engineering at Georgia Institute of Technology</p>
+            <div class="profile"></div>
+
+						<p>Hi! I am a graduate student studying mechanical engineering at Georgia Tech</p>
 						<ul class="actions">
 							<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
 						</ul>
@@ -46,9 +49,8 @@ sitemap:
             {% include nav.html %}
 
 						<ul class="icons">
-              <li><a href="https://twitter.com/{{site.twitter}}" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
-              <li><a href="https://facebook.com/{{site.facebook}}" class="icon fa-facebook" rel="nofollow"><span class="label">Facebook</span></a></li>
-              <li><a href="https://instagram.com/{{site.instagram}}" class="icon fa-instagram" rel="nofollow"><span class="label">Instagram</span></a></li>
+              <li><a href="mailto: {{site.email}}" class="icon fa-envelope" rel="nofollow"><span class="label">Email</span></a></li>
+              <li><a href="https://linkedin.com/in/{{site.linkedin}}" class="icon fa-linkedin" rel="nofollow"><span class="label">LinkedIn</span></a></li>
               <li><a href="https://github.com/{{site.github}}" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
 						</ul>
 					</nav>
@@ -59,17 +61,18 @@ sitemap:
 							<article class="post featured">
 								<header class="major">
 									<h2><a href="#">What do I do?</a></h2>
-									<p>I am interested in making robots see and understand the world <br />
-                    by learning about image segmentations <br />
-                    perhaps also root planning</p>
+									<p>From structual design to backend web development and computer vision <br />
+                    I design and implement solutions <br />
+                    by leveraging a wide range of <a href="{{ "/about/" | absolute_url }}">technical skills</a> and engineering discipline</p>
 								</header>
-								<a href="#" class="image main"><img src="{{ "/images/pic01.jpg" | absolute_url }}" alt="" /></a>
-                <p>I am pursuing that goal by studying mechanical engineering as a master's student at Georgia Tech. I mostly study machine vision, control theory, dynamics and robotics. I'm also inspired by recent achievements with end-to-end neural nets and want to push the boudary of semantic-SLAM for autonomous robotics. </p>
-                <p>I am also very interested in web/mobile application development and have a minor concentration in computer science.
+								<a href="#" class="image main"><img src="{{ "/images/pic06.jpg" | absolute_url }}" alt="" /></a>
+                <p>I am currently studying computer vision, machine learning and robotics. I'm inspired by the recent achievements with end-to-end neural nets and want to push the boudary of semantic-SLAM for autonomous robotics. </p>
+                <p>I am also very interested in web/mobile application development and have a minor concentration in computer science. Check out my <a href="{{ "/blog/" | absolute_url }}">blog</a> for some of my work.
 								</p>
-								<p>
-									I am currently looking to join one of eight research labs at Georgia Tech and want to conduct my research in applying state-of-art SLAM or semantic segmentation algorithms to autonomous robots.
-								 </p>
+
+              <ul class="actions">
+                  <li><a href="{{ "/about/" | absolute_url }}" class="button"> More About Me </a></li>
+              </ul>
 
 							</article>
 

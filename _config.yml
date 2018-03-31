@@ -1,10 +1,10 @@
 # Site
 title:              Tianyi Zheng
-bio:                'Aspiring computer vision engineer'
-description:        "This is my personal web page"
+bio:                'Creative Problem Solver'
+description:        "Tianyi Zheng's Personal Webpage and Blog Site"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "https://tianyizheng.github.io" # the base hostname & protocol for your site
 
 defaults:
 - scope:
@@ -35,9 +35,7 @@ disqus_shortname:   default
 
 # Social
 analytics-id:       "default"
-twitter:            default
-facebook:           default
-instagram:          default
+linkedin:           tianyizheng
 github:             tianyizheng
 
 # personal

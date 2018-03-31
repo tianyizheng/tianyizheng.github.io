@@ -1,0 +1,42 @@
+- skill:
+  name: Python, Django & Flask
+  level: 90%
+- skill:
+  name: C/C++
+  level: 84%
+- skill:
+  name: SQL & Postgres
+  level: 78%
+- skill:
+  name: NOSQL & MongoDB
+  level: 60%
+- skill:
+  name: HTML5, CSS
+  level: 69%
+- skill:
+  name: Java & Spring
+  level: 58%
+- skill:
+  name: Swift, iOS & Xcode
+  level: 64%
+- skill:
+  name: Linux
+  level: 55%
+- skill:
+  name: Javascript & React Native
+  level: 50%
+- skill:
+  name: AWS & Heroku
+  level: 20%
+- skill:
+  name: Docker
+  level: 30%
+- skill:
+  name: Solidworks, NX, AutoCAD
+  level: 50%
+- skill:
+  name: Matlab
+  level: 77%
+- skill:
+  name: Machine Learning
+  level: 50%

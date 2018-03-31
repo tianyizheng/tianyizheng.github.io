@@ -56,6 +56,41 @@
 		box-sizing: border-box;
 	}
 
+/* Skillset */
+	.skillset .item {
+	  margin-bottom: 15px;
+	  overflow: hidden;
+	}
+	.skillset .level-title {
+	  font-size: 14px;
+	  margin-top: 0;
+	  margin-bottom: 12px;
+	}
+	.skillset .level-bar {
+	  height: 12px;
+	  background: #f5f5f5;
+	}
+	.skillset .level-bar-inner {
+	  height: 12px;
+	  background: #7bc2d3;
+	}
+
+@media (min-width: 992px) {
+  .skillset .level-title {
+    display: inline-block;
+    float: left;
+    width: 30%;
+    margin-bottom: 0;
+  }
+  .skillset .level-bar {
+    display: inline-block;
+    width: 70%;
+    float: left;
+    position: relative;
+    top: 1px;
+  }
+}
+
 /* Grid */
 
 	.row {
@@ -2411,6 +2446,22 @@
 		}
 
 /* Image */
+
+  .profile { 
+  	display: inline-block;
+	width: 200px;
+	height: 200px;
+	margin: .8em auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: url("/images/profile.jpg" );
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	border: 5px solid #eee;
+	box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+  }
 
 	.image {
 		border: 0;

@@ -9,13 +9,17 @@ sitemap:
 ---
 ## About Me
 
-<span class="image left"><img src="{{ "/images/pic04.jpg" | absolute_url }}" alt="" /></span>
+<span class="image left"><img src="{{ "/images/atlanta.jpg" | absolute_url }}" alt="" /></span>
 
-I graduated with the highest honor from Georgia Tech with a Bachelor's degree in Mechanical Engineering with a concentration in robotics and automation. 
+I graduated with the highest honor from Georgia Tech with a Bachelor's degree in Mechanical Engineering with a concentration in robotics and automation. I am currently pursuing a Master's degree with a joint track of robotics and computer science to prepare for a higher level learning in computer vision.
 
-Receiving the benefits of content is a certain something. Be that as it may, it's so substantially less demanding once you begin conveying all the more successfully. The profitable content thought isn't just about bragging your item's capacities and general worth or your organization's achievements. You should concentrate less on advertising how awesome your item is and rather concentrate on indicating how valuable it is. This is a client focused approach as it concentrates on their issues and your answer for them. Making yourself fundamental is critical.
+My technical background mostly involves backend development, control theory, mechatronics and linear algebra. I enjoy programming and am proficient in python, C/C++, Java and Matlab. 
 
-### Education
+{% include skills.html %}
+
+<br />
+
+<h2 class="section-title"><i class="fa fa-graduation-cap"></i>Education</h2>
 
 #### MS in Mechanical Engineering
 
@@ -24,7 +28,7 @@ Receiving the benefits of content is a certain something. Be that as it may, it'
 <p>
   My major area of focus is in robot perception with a minor area in computer science. 
   I am interested in the semantic scene understanding, path planning and control of autonomous robots. 
-  I am currently looking for a research opportunity in the area of SLAM and semantic segmentation.
+  I am currently working on a thesis proposal in the area of SLAM and semantic segmentation.
 </p>
 
 #### BS in Mechanical Engineering
@@ -34,20 +38,23 @@ Receiving the benefits of content is a certain something. Be that as it may, it'
 <p>
   I graduated with highest honor with a concentration in robotics and automation in May, 2017.
   In addition to my major area of study, I devoted my time in studying control theory, mechatronics and computer science. 
-  I also conducted undergraduate research in applying control algorithm to BioMechanic instruments and worked as an intern for 
+  I also conducted undergraduate research in creating control algorithm to BioMechanic instruments and worked as an intern for 
   a startup company prototyping a novel water-saving tap
 </p>
 
-### Experience
+<h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
 
-#### Lead mechanical Intern
+#### Lead Mechanical Intern
+
+<h4><a href="http://www.mymuyu.com">Muyu Technology</a>, Beijing</h4>
+
 <p>
  Muyu technology is a startup company developing novel water-saving tap systems.
   My main project was to design, develop and prototyp a vibration and noise reduction 
   solution for a small air pump in Solidworks while ensuring compactness, manufacturability 
   and improving its heat transfer efficiency. As the project lead, I worked with three other interns,
-  delegated tasks, managed BOM and developed a lowcost bakelite housing that secures the pump
-  and reduces noise by 15 dB. I also worked closely with the electronics engineers, product designer 
+  delegated tasks, managed BOM and developed a lowcost bakelite module that secures the pump
+  and reduces noise by 15 dB. Our module was later submitted for a patent application. I also worked closely with the electronics engineers, product designer 
   and the fluid engineer to optimize the size of the fluid module by 50% and ensure 
   correct dimensional requirements.
   <br> <br>
@@ -59,6 +66,8 @@ Receiving the benefits of content is a certain something. Be that as it may, it'
 
 #### Undergraduate Research Intern
 
+<h4><a href="http://www.sulchek2.gatech.edu">Sulchek Lab</a>, Georgia Tech, Atlanta</h4>
+
 <p>
     My reserach topic was on the rapid determination of microcantilevel
   quality factor to promote maintenance of the atomic force microscope tip-sample distance. 
@@ -69,10 +78,32 @@ Receiving the benefits of content is a certain something. Be that as it may, it'
   over long periods of time.
 </p>
 
-### Projects
+<h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
 
-### Skills
-
-<span class="image left"><img src="{{ "/images/pic05.jpg" | absolute_url }}" alt="" /></span>
-
-On social media, we may share our own thoughts and advance our image notwithstanding spreading musings for different associations and affiliations. With such a critical number of associations with people and relationship on social media, our experience can be over-burden with a considerable measure of information.
+<dl>
+	<dt><a href="https://github.com/AlexandrePalo/TrailBlazer">Trailblazer</a></dt>
+	<dd>
+		<p>A dynamic Django + React web application that recommends the most exciting tracks based on a single user location.
+</p>
+	</dd>
+	<dt><a href="https://github.gatech.edu/akeech3/MortalityPredictor">Fhirnet</a></dt>
+	<dd>
+		<p>A light weight SMART-on-Fhir Flask web application designed for physicians for patient mortality prediction using neural net models.</p>
+	</dd>
+	<dt><a href="https://github.com/tianyizheng/Faceology">Faceology</a></dt>
+	<dd>
+		<p>An efficient one-stop networking solution iOS app with facial matching abilities to help users navigate networking events.</p>
+	</dd>
+  <dt><a href="https://github.com/tianyizheng/PVWebApp">Private Void</a></dt>
+  <dd>
+    <p>A Java EE movie recommendation web application for students based on their major and school standings.</p>
+  </dd>
+	<dt>The HugePole</dt>
+	<dd>
+		<p>Capstone design project where an intuitive lowcost no-ladder solution for Christmas lights hanging was designed and prototyped for the Homedepot company.</p>
+	</dd>
+	<dt>ChipSampler </dt>
+	<dd>
+		<p>An automatic Arduino system for collecting microfluidic chip samples that won the Best Design in Class award.</p>
+	</dd>
+</dl>
