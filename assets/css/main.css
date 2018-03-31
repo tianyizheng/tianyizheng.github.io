@@ -2455,7 +2455,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-image: url("/images/profile.jpg" );
+	background-image: url("../../images/profile.jpg" );
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	border-radius: 50%;
