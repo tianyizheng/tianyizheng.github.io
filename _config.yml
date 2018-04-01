@@ -31,10 +31,10 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   default
+disqus_shortname:   my-homepage-1
 
 # Social
-analytics-id:       "UA-116726987-1"
+analytics-id:       UA-116726987-1
 linkedin:           tianyizheng
 github:             tianyizheng
 
