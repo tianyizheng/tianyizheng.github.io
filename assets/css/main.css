@@ -3460,6 +3460,14 @@
 
 		}
 
+/* Resume */
+
+	#resume {
+	  width: 800px ;
+	  margin-left: auto ;
+	  margin-right: auto ;
+	}
+
 /* Nav */
 
 	#nav {
