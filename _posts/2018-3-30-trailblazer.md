@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Finding The Most Interesting Trail"
 date:   2018-3-30
 excerpt: "Trailblazer - helping you make the most out of the ourdoors"

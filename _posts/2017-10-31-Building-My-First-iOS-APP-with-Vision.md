@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Building My First iOS APP with Vision!"
 date:   2018-3-10
 excerpt: "How I built a facial detection app using the power of CoreML"
