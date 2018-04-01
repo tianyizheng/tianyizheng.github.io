@@ -11,9 +11,11 @@ sitemap:
 
 <span class="image left"><img src="{{ "/images/atlanta.jpg" | absolute_url }}" alt="" /></span>
 
-I graduated with the highest honor from Georgia Tech with a Bachelor's degree in Mechanical Engineering with a concentration in robotics and automation. I am currently pursuing a Master's degree with a joint track of robotics and computer science to prepare for a higher level learning in computer vision.
+I graduated with the highest honor from Georgia Tech with a Bachelor's degree in Mechanical Engineering with a concentration in robotics and automation. I am currently pursuing a Master's degree with a joint track of robotics perception and computer science to prepare for a higher level learning in computer vision.
 
-My technical background mostly involves backend development, control theory, mechatronics and linear algebra. I enjoy programming and am proficient in python, C/C++, Java and Matlab. 
+My technical background mostly involves backend development, control theory, mechatronics and linear algebra. I enjoy programming and am proficient in python, C/C++, Java and Matlab. I love learning new skills and keeping up with the latest technology advances. 
+
+Besides tech, here's some other things that I love: standup comedies, skiing, fantasy novels, fitness, italian food and the TV show Friends.
 
 {% include skills.html %}
 
