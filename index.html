@@ -30,7 +30,7 @@ sitemap:
 						<h2>{{site.bio}}</h2>
             <div class="profile"></div>
 
-						<p>Hi! I am a graduate student studying mechanical engineering at Georgia Tech</p>
+						<p>Hi! I am a graduate student studying mechanical engineering and computer scienec at Georgia Tech</p>
 						<ul class="actions">
 							<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
 						</ul>
@@ -59,12 +59,12 @@ sitemap:
 							<article class="post featured">
 								<header class="major">
 									<h2><a href="#">What do I do?</a></h2>
-									<p>From structual design to backend web development and computer vision <br />
+									<p>From structual design to backend web development and machine learning <br />
                     I design and implement solutions <br />
-                    by leveraging a wide range of <a href="{{ "/about/" | absolute_url }}">technical skills</a> and engineering discipline</p>
+                    by leveraging a wide range of <a href="{{ "/about/" | absolute_url }}">technical skills</a> and engineering disciplines</p>
 								</header>
 								<a href="#" class="image main"><img src="{{ "/images/pic06.jpg" | absolute_url }}" alt="" /></a>
-                <p>I am currently studying computer vision, machine learning and robotics. I'm inspired by the recent achievements with end-to-end neural nets and want to push the boudary of semantic-SLAM for autonomous robotics. </p>
+                <p>I am currently studying computer science, machine learning and robotics. I'm inspired by the recent achievements with end-to-end neural nets and AI and want to push the boudary of autonomous robotics. </p>
                 <p>I am also very interested in web/mobile application development and have a minor concentration in computer science. Check out my <a href="{{ "/blog/" | absolute_url }}">blog</a> for some of my work.
 								</p>
 
@@ -76,8 +76,7 @@ sitemap:
 
 						<!-- Posts -->
 							<section class="posts">
-                {% for post in site.posts limit:3 %}
-                {% assign mod3 = forloop.index | modulo: 3 %}
+                {% for post in site.posts limit:4 %}
   								<article>
   									<header>
   										<span class="date">{{ post.date | date_to_string }}</span>
@@ -89,14 +88,6 @@ sitemap:
   										<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
   									</ul>
   								</article>
-                  {% if mod3 == 0 %}
-                  <article>
-  									<header>
-  										<h2><a href="#">Coming Soon</h2>
-  									</header>
-
-  								</article>
-                  {% endif %}
                 {% endfor %}
 
 							</section>
@@ -104,7 +95,7 @@ sitemap:
 						<!-- Footer -->
 							<footer>
                 <ul class="actions">
-                  <li><a href="{{ "/blog/" | absolute_url }}" class="button">My Blog</a></li>
+                  <li><a href="{{ "/blog/" | absolute_url }}" class="button">More on My Blog</a></li>
                 </ul>
 							</footer>
 

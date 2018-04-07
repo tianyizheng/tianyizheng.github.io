@@ -11,7 +11,7 @@ sitemap:
 
 <span class="image left"><img src="{{ "/images/atlanta.jpg" | absolute_url }}" alt="" /></span>
 
-I graduated with the highest honor from Georgia Tech with a Bachelor's degree in Mechanical Engineering with a concentration in robotics and automation. I am currently pursuing a Master's degree with a joint track of robotics perception and computer science to prepare for a higher level learning in computer vision.
+I graduated with the highest honor from Georgia Tech with a Bachelor's degree in Mechanical Engineering with a concentration in robotics and automation. I am currently pursuing a Master's degree with a joint track of robotics and computer science to prepare for a higher level learning in AI and robotics.
 
 My technical background mostly involves backend development, control theory, mechatronics and linear algebra. I enjoy programming and am proficient in python, C/C++, Java and Matlab. I love learning new skills and keeping up with the latest technology advances. 
 
@@ -28,9 +28,9 @@ Besides tech, here's some other things that I love: standup comedies, skiing, fa
 #### Georgia Institute of Technology
 
 <p>
-  My major area of focus is in robot perception with a minor area in computer science. 
-  I am interested in the semantic scene understanding, path planning and control of autonomous robots. 
-  I am currently working on a thesis proposal in the area of SLAM and semantic segmentation.
+  My major area of focus is in robotics with a minor area in computer science. 
+  I am interested in the semantic scene understanding, applied machine learning and control of autonomous robots. 
+  I am currently working on a thesis proposal in the area of applied machine learning and control of robotics.
 </p>
 
 #### BS in Mechanical Engineering
@@ -80,25 +80,25 @@ Besides tech, here's some other things that I love: standup comedies, skiing, fa
   over long periods of time.
 </p>
 
-<h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
+<h2 class="section-title"><i class="fa fa-archive"></i> Class Projects</h2>
 
 <dl>
 	<dt><a href="https://github.com/AlexandrePalo/TrailBlazer">Trailblazer</a></dt>
 	<dd>
-		<p>A dynamic Django + React web application that recommends the most exciting tracks based on a single user location.
+		<p>A dynamic web application that recommends the most exciting tracks based on a single user location. Read more <a href="{{ "/blog/" | absolute_url }}">here</a>. Built with Django, React, MongoDB and NetworkX.
 </p>
 	</dd>
 	<dt><a href="https://github.gatech.edu/akeech3/MortalityPredictor">Fhirnet</a></dt>
 	<dd>
-		<p>A light weight SMART-on-Fhir Flask web application designed for physicians for patient mortality prediction using neural net models.</p>
+		<p>A light weight SMART-on-Fhir web application designed for physicians for patient mortality prediction using neural net models. Built with Flask, SocketIO, Postgres FHIR and Docker. Automated with Jenkins and deployed on GaTech HDAP. </p>
 	</dd>
 	<dt><a href="https://github.com/tianyizheng/Faceology">Faceology</a></dt>
 	<dd>
-		<p>An efficient one-stop networking solution iOS app with facial matching abilities to help users navigate networking events.</p>
+		<p>An efficient one-stop networking solution iOS app with facial matching abilities to help users navigate networking events. Read more <a href="{{ "/blog/" | absolute_url }}">here</a>. Built with Swift, Flask and Postgres.</p>
 	</dd>
   <dt><a href="https://github.com/tianyizheng/PVWebApp">Private Void</a></dt>
   <dd>
-    <p>A Java EE movie recommendation web application for students based on their major and school standings.</p>
+    <p>A movie recommendation web application for students based on their major and school standings. Built with J2EE, Hibernate and Bootstrap.</p>
   </dd>
 	<dt>The HugePole</dt>
 	<dd>
@@ -108,4 +108,24 @@ Besides tech, here's some other things that I love: standup comedies, skiing, fa
 	<dd>
 		<p>An automatic Arduino system for collecting microfluidic chip samples that won the Best Design in Class award.</p>
 	</dd>
+</dl>
+
+<h2 class="section-title"><i class="fa fa-archive"></i> Side Projects</h2>
+<dl>
+  <dt>This Site - Built with Jekyll and hosted on Github</dt>
+  <dd>
+    <p>I use this site not only as a profile hosting place, but also to wrtie my <a href="{{ "/blog/" | absolute_url }}">blog</a>. I mainly write about projects that I'm working on and what I learned from other exciting tech advances/resaerch papers.</p>
+  </dd>
+  <dt><a href="https://github.com/tianyizheng/wordCount">WikiPedia Vis(Developing)</a></dt>
+  <dd>
+    <p>I am aiming to create a site that helps people visualize relevant topics on a Wikipedia page. It started when I was just following a tutorial and grew bigger. Built with Flask, Redis, Angular, NLTK, Postgres and deployed on Heroku. </p>
+  </dd>
+  <dt><a href="https://github.com/tianyizheng/Solarize">Solarize - MindSumo</a></dt>
+  <dd>
+    <p>This was a failed attempt at participating on a MindSumo competition. However, I did learn a lot about ReactNative and created a functional UI.</p>
+  </dd>
+  <dt>Segue Bot - Hackathon</dt>
+  <dd>
+    <p>Designed and built a self balancing robot with Arduino. I mainly worked on sensor reading, pwm signal output and implementing a PID controller. </p>
+  </dd>
 </dl>
