@@ -85,12 +85,12 @@ Besides tech, here's some other things that I love: standup comedies, skiing, fa
 <dl>
 	<dt><a href="https://github.com/AlexandrePalo/TrailBlazer">Trailblazer</a></dt>
 	<dd>
-		<p>A dynamic web application that recommends the most exciting tracks based on a single user location. Read more <a href="{{ "/blog/" | absolute_url }}">here</a>. Built with Django, React, MongoDB and NetworkX.
+		<p>A dynamic web application that recommends the most exciting tracks based on a single user location. Read more <a href="{{ "/blog/" | absolute_url }}">here</a>. Built with DjangoRestful, React, MongoDB and NetworkX.
 </p>
 	</dd>
 	<dt><a href="https://github.gatech.edu/akeech3/MortalityPredictor">Fhirnet</a></dt>
 	<dd>
-		<p>A light weight SMART-on-Fhir web application designed for physicians for patient mortality prediction using neural net models. Built with Flask, SocketIO, Postgres FHIR and Docker. Automated with Jenkins and deployed on GaTech HDAP. </p>
+		<p>A light weight SMART-on-Fhir web application designed for physicians for patient mortality prediction using neural net models. Built with Flask, SocketIO, SqlAlchemy, Postgres FHIR and Docker. Automated with Jenkins and deployed on GaTech HDAP. </p>
 	</dd>
 	<dt><a href="https://github.com/tianyizheng/Faceology">Faceology</a></dt>
 	<dd>
@@ -98,7 +98,7 @@ Besides tech, here's some other things that I love: standup comedies, skiing, fa
 	</dd>
   <dt><a href="https://github.com/tianyizheng/PVWebApp">Private Void</a></dt>
   <dd>
-    <p>A movie recommendation web application for students based on their major and school standings. Built with J2EE, Hibernate and Bootstrap.</p>
+    <p>A movie recommendation web application for students based on their major and school standings. Developed CRUD operations for users, admins and movies. Built with Java EE, Hibernate NetBeans and Bootstrap.</p>
   </dd>
 	<dt>The HugePole</dt>
 	<dd>
