@@ -15,7 +15,7 @@ I graduated with the highest honor from Georgia Tech with a Bachelor's degree in
 
 My technical background mostly involves backend development, control theory, mechatronics and linear algebra. I enjoy programming and am proficient in python, C/C++, Java and Matlab. I love learning new skills and keeping up with the latest technology advances. 
 
-Besides tech, here's some other things that I love: standup comedies, skiing, fantasy novels, fitness, italian food and the TV show Friends.
+Here's some other things that I love: standup comedies, skiing, fantasy novels, fitness, italian food and the TV show Friends.
 
 {% include skills.html %}
 
@@ -30,7 +30,6 @@ Besides tech, here's some other things that I love: standup comedies, skiing, fa
 <p>
   My major area of focus is in robotics with a minor area in computer science. 
   I am interested in the semantic scene understanding, applied machine learning and control of autonomous robots. 
-  I am currently working on a thesis proposal in the area of applied machine learning and control of robotics.
 </p>
 
 #### BS in Mechanical Engineering
@@ -40,8 +39,8 @@ Besides tech, here's some other things that I love: standup comedies, skiing, fa
 <p>
   I graduated with highest honor with a concentration in robotics and automation in May, 2017.
   In addition to my major area of study, I devoted my time in studying control theory, mechatronics and computer science. 
-  I also conducted undergraduate research in creating control algorithm to BioMechanic instruments and worked as an intern for 
-  a startup company prototyping a novel water-saving tap
+  I also conducted undergraduate research in creating control algorithm to BioMechanic instruments, worked as an intern for 
+  a startup company prototyping a novel water-saving tap and served as philantrhopy liaison for Alpha Kappa Psi.
 </p>
 
 <h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
