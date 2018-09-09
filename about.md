@@ -1,19 +1,19 @@
 ---
 layout: page
 title: Tianyi Zheng - About
-description: The story of Tianyi Zheng, a master's student studying robotics and perception in Georgia Tech
+description: The story of Tianyi Zheng, a master's student studying computer engineering at Georgia Tech
 sitemap:
     priority: 0.7
-    lastmod: 2018-03-30
+    lastmod: 2018-09-09
     changefreq: weekly
 ---
 ## About Me
 
 <span class="image left"><img src="{{ "/images/atlanta.jpg" | absolute_url }}" alt="" /></span>
 
-I graduated with the highest honor from Georgia Tech with a Bachelor's degree in Mechanical Engineering with a concentration in robotics and automation. I am currently pursuing a Master's degree with a joint track of robotics and computer science to prepare for a higher level learning in AI and robotics.
+I am currently pursuing a Master’s degree in Computer Engineering to prepare for a future career in software engineering. Prior to that, I graduated with the highest honor from Georgia Tech with a Bachelor’s degree in Mechanical Engineering with a concentration in robotics and automation.
 
-My technical background mostly involves backend development, control theory, mechatronics and linear algebra. I enjoy programming and am proficient in python, C/C++, Java and Matlab. I love learning new skills and keeping up with the latest technology advances. 
+I have a strong background in web and mobile application development. I enjoy programming and am proficient in python, C/C++, Java and Matlab. I love learning new skills and keeping up with the latest technology advances.
 
 Here's some other things that I love: standup comedies, skiing, fantasy novels, fitness, italian food and the TV show Friends.
 
@@ -23,13 +23,12 @@ Here's some other things that I love: standup comedies, skiing, fantasy novels, 
 
 <h2 class="section-title"><i class="fa fa-graduation-cap"></i>Education</h2>
 
-#### MS in Mechanical Engineering
+#### MS in Computer Engineering
 
 #### Georgia Institute of Technology
 
 <p>
-  My major area of focus is in robotics with a minor area in computer science. 
-  I am interested in the semantic scene understanding, applied machine learning and control of autonomous robots. 
+  My major area of focus is in software engineering and networking. I also have a special interest in security.
 </p>
 
 #### BS in Mechanical Engineering
@@ -44,6 +43,21 @@ Here's some other things that I love: standup comedies, skiing, fantasy novels, 
 </p>
 
 <h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
+#### Software Developer Intern
+
+<h4><a href="http://www.sap.com">SAP</a>, Atlanta</h4>
+
+<p>
+ I am part of SAP's Mobile Services on CloudFoundry team and have been the main contributor to a service that provides mobile application management for customers. I developed the web application following the microservice principle using Java and MongoDB on CloudFoundry. By collaborating across a global team and actively contributing to the service architecture meetings, I was able to create a solution to get around CloudFoundry's binding/authentication limitation for providing services to applications in different regions. 
+
+ All developments were done in a test driven process. Technologies used included Java, Spring, Maven, MongoDb, CloudFoundry, Jenkins and Jira.
+
+ Besides development, I also worked extensively on researching a way to deploy the new services to all SAP regions. It included deploying new service brokers, advertise the app as a service, and binding the centralized service to other regions’ applications.
+
+ I also developed SOAPUI test automation scripts to perform smoke and integration tests for services. 
+
+ Other responsibilities are Github repository management including merges, code reviews, approving pull requests, assisting QA teams to develop manual test execution processes and CloudFoundry team space management and monitoring
+</p>
 
 #### Lead Mechanical Intern
 
